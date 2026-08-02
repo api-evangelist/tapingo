@@ -1,8 +1,23 @@
 aid: tapingo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tapingo.png
 name: Tapingo
-description: 'Tapingo is a company surfaced as a portfolio company of dcm-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Tapingo was a mobile ordering and pickup app for college campuses and local restaurants,
+  surfaced as a portfolio company of dcm-ventures. It was acquired by Grubhub in 2018 and folded into
+  Grubhub Campus; as of the 2026 enrichment pass the tapingo.com domain 301-redirects to
+  onsite.grubhub.com and Tapingo no longer operates as an independent company or publishes any developer
+  or API surface. Sector: consumer / food ordering. This profile is retained as a historical
+  portfolio-lead stub; there are no live APIs to enrich.'
 url: https://raw.githubusercontent.com/api-evangelist/tapingo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +27,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Food Ordering
+- Mobile
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-status: defunct
+x-acquired-by: grubhub
+x-redirects-to: https://onsite.grubhub.com/
 common:
 - type: Website
-  url: http://www.tapingo.com/
+  url: https://www.tapingo.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
